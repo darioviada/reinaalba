@@ -22,13 +22,13 @@ else{
 
     // datos para el correo
 
-    $destinatario = "darioviada@gmail.com";
-    $destinatarioCopia = "darioviada@gmail.com";
+    $destinatario = "xxxxxx@gmail.com";
+    $destinatarioCopia = "xxxxx@gmail.com";
 
     // Datos de la cuenta de correo utilizada para enviar vía SMTP
-    $smtpHost = "mail.puenteb.com.ar";  // Dominio alternativo brindado en el email de alta 
-    $smtpUsuario = "noreply@puenteb.com.ar";  // Mi cuenta de correo
-    $smtpClave = "Bridge3737";  // Mi contraseña
+    $smtpHost = "mail.xxxxx.com.ar";  // Dominio alternativo brindado en el email de alta 
+    $smtpUsuario = "noreply@xxxx.com.ar";  // Mi cuenta de correo
+    $smtpClave = "xxxxx";  // Mi contraseña
 
     $mail = new PHPMailer();
     $mail->IsSMTP();
